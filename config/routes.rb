@@ -8,7 +8,7 @@ Rails.application.routes.draw do
       delete '/sodas/:id' => 'sodas#destroy'
     end
 
-      namespace :v2 do
+    namespace :v2 do
       get '/sodas' => 'sodas#index'
       post '/sodas' => 'sodas#create'
       get  '/sodas/:id' => 'sodas#show'

@@ -11,4 +11,17 @@
 # end
 
 
+# soda_ids = Soda.all.pluck(:id)
+
+# soda_ids.each do |id|
+#   rand(0..3).times do
+#     Simpson.create(
+#                     character: Faker::TvShows::Simpsons.character,
+#                     location: Faker::TvShows::Simpsons.location,
+#                     soda_id: id
+#                    )
+#   end
+# end
+
+
 
