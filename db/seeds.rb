@@ -1,27 +1,14 @@
-soda = Soda.new(
-         soda_name: "Pepsi",
-         distributor: "Pepsi-cola",
-         color: "brown",
-         calories: 300
-         )
+# 100.times do
+#    brand = Faker::Beer.brand
+#    beer_name = Faker::Beer.name
+#    beer_style = Faker::Beer.style
 
-soda.save
+#    Soda.create(
+#       soda_name: brand,
+#       distributor: beer_name,
+#       color: beer_style
+#       )
+# end
 
-soda = Soda.new(
-         soda_name: "Mountain Dew",
-         distributor: "Pepsi-cola",
-         color: "yellow",
-         calories: 430
-         ) 
 
-soda.save 
-
-soda = Soda.new(
-         soda_name: "Dr. Pepper",
-         distributor: "Cocacola Products",
-         color: "brown-red",
-         calories: 450
-         )
-
-soda.save
 
